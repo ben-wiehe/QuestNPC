@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "quest_npc:tingle_stone_ore"
+    }
+  }
+}

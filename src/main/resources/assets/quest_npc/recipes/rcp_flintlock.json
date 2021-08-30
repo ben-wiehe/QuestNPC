@@ -1,0 +1,36 @@
+{
+  "group": "quest_npc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_block"
+    },
+    "2": {
+      "item": "minecraft:wooden_slab",
+      "data": 32767
+    },
+    "4": {
+      "item": "minecraft:gold_nugget"
+    },
+    "5": {
+      "item": "minecraft:log",
+      "data": 32767
+    },
+    "8": {
+      "item": "minecraft:log",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "quest_npc:flintlock",
+    "count": 1
+  }
+}

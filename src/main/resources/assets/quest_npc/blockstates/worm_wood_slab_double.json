@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "quest_npc:worm_wood_slab_double"
+    }
+  }
+}

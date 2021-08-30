@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "quest_npc:blocks/wormwood_planks",
+    "particle": "quest_npc:blocks/wormwood_planks"
+  }
+}

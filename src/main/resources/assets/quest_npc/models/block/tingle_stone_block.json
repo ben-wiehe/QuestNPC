@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "quest_npc:blocks/tinglestone_ore_block",
+    "particle": "quest_npc:blocks/tinglestone_ore_block"
+  }
+}

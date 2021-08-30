@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "quest_npc:blocks/wortweed",
+    "particle": "quest_npc:blocks/wortweed"
+  }
+}

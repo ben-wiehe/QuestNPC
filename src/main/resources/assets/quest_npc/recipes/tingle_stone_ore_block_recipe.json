@@ -1,0 +1,42 @@
+{
+  "group": "quest_npc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "quest_npc:tingle_stone"
+    },
+    "1": {
+      "item": "quest_npc:tingle_stone"
+    },
+    "2": {
+      "item": "quest_npc:tingle_stone"
+    },
+    "3": {
+      "item": "quest_npc:tingle_stone"
+    },
+    "4": {
+      "item": "quest_npc:tingle_stone"
+    },
+    "5": {
+      "item": "quest_npc:tingle_stone"
+    },
+    "6": {
+      "item": "quest_npc:tingle_stone"
+    },
+    "7": {
+      "item": "quest_npc:tingle_stone"
+    },
+    "8": {
+      "item": "quest_npc:tingle_stone"
+    }
+  },
+  "result": {
+    "item": "quest_npc:tingle_stone_block",
+    "count": 1
+  }
+}

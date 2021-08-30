@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=dandelion": {
+      "model": "quest_npc:black_box_wood"
+    }
+  }
+}

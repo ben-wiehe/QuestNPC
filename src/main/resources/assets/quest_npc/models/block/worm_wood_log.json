@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "quest_npc:blocks/wormwood_log_top",
+    "up": "quest_npc:blocks/wormwood_log_top",
+    "north": "quest_npc:blocks/wormwood_log_side",
+    "east": "quest_npc:blocks/wormwood_log_side",
+    "south": "quest_npc:blocks/wormwood_log_side",
+    "west": "quest_npc:blocks/wormwood_log_side",
+    "particle": "quest_npc:blocks/wormwood_log_top"
+  }
+}

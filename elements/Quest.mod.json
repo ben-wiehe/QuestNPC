@@ -1,0 +1,67 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Wandering Quester",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Wandering Quester",
+          "x": 131,
+          "y": 42
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 132,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 276,
+          "y": 96
+        }
+      }
+    ]
+  }
+}

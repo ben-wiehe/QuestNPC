@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "quest_npc:blocks/wormwood_planks",
+    "particle": "quest_npc:blocks/wormwood_planks"
+  }
+}

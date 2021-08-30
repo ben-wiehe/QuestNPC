@@ -1,0 +1,14 @@
+{
+  "group": "quest_npc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "forge:ore_dict",
+      "ore": "forgewormwood_log"
+    }
+  ],
+  "result": {
+    "item": "quest_npc:worm_wood_planks",
+    "count": 4
+  }
+}

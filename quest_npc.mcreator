@@ -1,0 +1,445 @@
+{
+  "id_map": {
+    "ENTITY": 2,
+    "GUI": 1
+  },
+  "mod_elements": [
+    {
+      "name": "Quest",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "quest"
+    },
+    {
+      "name": "Wortweed",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wortweed"
+    },
+    {
+      "name": "RuggedTunic",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rugged_tunic",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LeatherChainmail",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_chainmail",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet"
+    },
+    {
+      "name": "Flintlock",
+      "type": "gun",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "flintlock"
+    },
+    {
+      "name": "RcpBullet",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rcp_bullet"
+    },
+    {
+      "name": "RcpFlintlock",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rcp_flintlock"
+    },
+    {
+      "name": "SneezeBerry",
+      "type": "plant",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sneeze_berry"
+    },
+    {
+      "name": "EmeraldToolsPickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_tools_pickaxe"
+    },
+    {
+      "name": "EmeraldToolsAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_tools_axe"
+    },
+    {
+      "name": "EmeraldToolsSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_tools_sword"
+    },
+    {
+      "name": "EmeraldToolsShovel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_tools_shovel"
+    },
+    {
+      "name": "EmeraldToolsHoe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_tools_hoe"
+    },
+    {
+      "name": "EmeralfArmorArmor",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emeralf_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "WormWoodWood",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_wood"
+    },
+    {
+      "name": "WormWoodLog",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_log"
+    },
+    {
+      "name": "WormWoodPlanks",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_planks"
+    },
+    {
+      "name": "WormWoodLeaves",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_leaves"
+    },
+    {
+      "name": "WormWoodStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_stairs"
+    },
+    {
+      "name": "WormWoodSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_slab"
+    },
+    {
+      "name": "WormWoodFence",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_fence"
+    },
+    {
+      "name": "WormWoodItemsTag",
+      "type": "tag",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_items_tag"
+    },
+    {
+      "name": "WormWoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_wood_recipe"
+    },
+    {
+      "name": "WormWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_planks_recipe"
+    },
+    {
+      "name": "WormWoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_stairs_recipe"
+    },
+    {
+      "name": "WormWoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_slab_recipe"
+    },
+    {
+      "name": "WormWoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_fence_recipe"
+    },
+    {
+      "name": "WormWoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_fence_gate_recipe"
+    },
+    {
+      "name": "WormWoodStickRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm_wood_stick_recipe"
+    },
+    {
+      "name": "TingleStone",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tingle_stone"
+    },
+    {
+      "name": "TingleStoneOre",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tingle_stone_ore"
+    },
+    {
+      "name": "TingleStoneBlock",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tingle_stone_block"
+    },
+    {
+      "name": "TingleStoneOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tingle_stone_ore_block_recipe"
+    },
+    {
+      "name": "TingleStoneBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tingle_stone_block_ore_recipe"
+    },
+    {
+      "name": "TingleStoneOreSmelting",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tingle_stone_ore_smelting"
+    },
+    {
+      "name": "BlackBoxWood",
+      "type": "plant",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_box_wood"
+    },
+    {
+      "name": "MusketBall",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "musket_ball"
+    },
+    {
+      "name": "Musket",
+      "type": "gun",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      },
+      "registry_name": "musket"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.sneeze_berry.name": "Sneeze Berry",
+      "tile.black_box_wood.name": "Black Box Wood",
+      "item.tingle_stone.name": "TingleStone",
+      "item.emerald_tools_pickaxe.name": "EmeraldTools Pickaxe",
+      "item.emeralf_armor_armorhelmet.name": "EmeralfArmor Helmet",
+      "item.emerald_tools_sword.name": "EmeraldTools Sword",
+      "item.leather_chainmaillegs.name": "Leather Chainmail Leggings",
+      "tile.tingle_stone_block.name": "Block of TingleStone",
+      "item.musket.name": "Musket",
+      "item.rugged_tunichelmet.name": "Rugged Helmet",
+      "tile.worm_wood_stairs.name": "WormWood Stairs",
+      "item.emerald_tools_axe.name": "EmeraldTools Axe",
+      "item.flintlock.name": "Flintlock",
+      "item.emeralf_armor_armorboots.name": "EmeralfArmor Boots",
+      "tile.worm_wood_planks.name": "WormWood Planks",
+      "tile.worm_wood_fence.name": "WormWood Fence",
+      "item.leather_chainmailboots.name": "Leather Chainmail Boots",
+      "item.rugged_tunicboots.name": "Rugged Boots",
+      "item.leather_chainmailbody.name": "Leather Chainmail Body",
+      "item.musket_ball.name": "Musket Ball",
+      "tile.worm_wood_slab.name": "WormWood Slab",
+      "tile.tingle_stone_ore.name": "TingleStone Ore",
+      "item.bullet.name": "Bullet",
+      "item.rugged_tuniclegs.name": "Rugged Leggings",
+      "tile.worm_wood_log.name": "WormWood Log",
+      "item.emeralf_armor_armorlegs.name": "EmeralfArmor Leggings",
+      "item.emerald_tools_shovel.name": "EmeraldTools Shovel",
+      "item.emerald_tools_hoe.name": "EmeraldTools Hoe",
+      "item.leather_chainmailhelmet.name": "Leather Chainmail Helmet",
+      "tile.worm_wood_wood.name": "WormWood Wood",
+      "tile.wortweed.name": "Wortweed",
+      "item.emeralf_armor_armorbody.name": "EmeralfArmor Chestplate",
+      "tile.worm_wood_leaves.name": "WormWood Leaves",
+      "item.rugged_tunicbody.name": "Rugged Tunic "
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "quest_npc",
+    "modName": "Quest NPC",
+    "version": "1.0.0",
+    "author": "ben, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "modElementsPackage": "net.mcreator.questnpc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

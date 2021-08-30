@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=dandelion": {
+      "model": "quest_npc:sneeze_berry"
+    }
+  }
+}

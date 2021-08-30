@@ -1,0 +1,8 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "bottom": "quest_npc:blocks/wormwood_planks",
+    "top": "quest_npc:blocks/wormwood_planks",
+    "side": "quest_npc:blocks/wormwood_planks"
+  }
+}

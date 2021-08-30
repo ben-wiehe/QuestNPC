@@ -1,0 +1,13 @@
+{
+  "group": "quest_npc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quest_npc:tingle_stone_block"
+    }
+  ],
+  "result": {
+    "item": "quest_npc:tingle_stone",
+    "count": 9
+  }
+}
