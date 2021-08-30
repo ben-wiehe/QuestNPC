@@ -1,20 +1,9 @@
 {
   "id_map": {
     "ENTITY": 2,
-    "GUI": 1
+    "GUI": 2
   },
   "mod_elements": [
-    {
-      "name": "Quest",
-      "type": "gui",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 1
-      },
-      "registry_name": "qst_wortweed"
-    },
     {
       "name": "Wortweed",
       "type": "plant",
@@ -22,7 +11,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "wortweed"
+      "registry_name": "wortweed",
+      "path": "~/Plants"
     },
     {
       "name": "RuggedTunic",
@@ -61,7 +51,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bullet"
+      "registry_name": "bullet",
+      "path": "~/Guns"
     },
     {
       "name": "Flintlock",
@@ -72,7 +63,8 @@
       "ids": {
         "0": 1
       },
-      "registry_name": "flintlock"
+      "registry_name": "flintlock",
+      "path": "~/Guns"
     },
     {
       "name": "RcpBullet",
@@ -81,7 +73,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rcp_bullet"
+      "registry_name": "rcp_bullet",
+      "path": "~/Guns"
     },
     {
       "name": "RcpFlintlock",
@@ -90,7 +83,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rcp_flintlock"
+      "registry_name": "rcp_flintlock",
+      "path": "~/Guns"
     },
     {
       "name": "SneezeBerry",
@@ -99,7 +93,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "sneeze_berry"
+      "registry_name": "sneeze_berry",
+      "path": "~/Plants"
     },
     {
       "name": "EmeraldToolsPickaxe",
@@ -108,7 +103,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "emerald_tools_pickaxe"
+      "registry_name": "emerald_tools_pickaxe",
+      "path": "~/Emerald Gear"
     },
     {
       "name": "EmeraldToolsAxe",
@@ -117,7 +113,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "emerald_tools_axe"
+      "registry_name": "emerald_tools_axe",
+      "path": "~/Emerald Gear"
     },
     {
       "name": "EmeraldToolsSword",
@@ -126,7 +123,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "emerald_tools_sword"
+      "registry_name": "emerald_tools_sword",
+      "path": "~/Emerald Gear"
     },
     {
       "name": "EmeraldToolsShovel",
@@ -135,7 +133,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "emerald_tools_shovel"
+      "registry_name": "emerald_tools_shovel",
+      "path": "~/Emerald Gear"
     },
     {
       "name": "EmeraldToolsHoe",
@@ -144,7 +143,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "emerald_tools_hoe"
+      "registry_name": "emerald_tools_hoe",
+      "path": "~/Emerald Gear"
     },
     {
       "name": "EmeralfArmorArmor",
@@ -159,7 +159,8 @@
         "el": true,
         "eb": true,
         "ec": true
-      }
+      },
+      "path": "~/Emerald Gear"
     },
     {
       "name": "WormWoodWood",
@@ -168,7 +169,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_wood"
+      "registry_name": "worm_wood_wood",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodLog",
@@ -177,7 +179,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_log"
+      "registry_name": "worm_wood_log",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodPlanks",
@@ -186,7 +189,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_planks"
+      "registry_name": "worm_wood_planks",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodLeaves",
@@ -195,7 +199,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_leaves"
+      "registry_name": "worm_wood_leaves",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodStairs",
@@ -204,7 +209,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_stairs"
+      "registry_name": "worm_wood_stairs",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodSlab",
@@ -213,7 +219,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_slab"
+      "registry_name": "worm_wood_slab",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodFence",
@@ -222,7 +229,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_fence"
+      "registry_name": "worm_wood_fence",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodItemsTag",
@@ -231,7 +239,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_items_tag"
+      "registry_name": "worm_wood_items_tag",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodWoodRecipe",
@@ -240,7 +249,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_wood_recipe"
+      "registry_name": "worm_wood_wood_recipe",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodPlanksRecipe",
@@ -249,7 +259,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_planks_recipe"
+      "registry_name": "worm_wood_planks_recipe",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodStairsRecipe",
@@ -258,7 +269,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_stairs_recipe"
+      "registry_name": "worm_wood_stairs_recipe",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodSlabRecipe",
@@ -267,7 +279,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_slab_recipe"
+      "registry_name": "worm_wood_slab_recipe",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodFenceRecipe",
@@ -276,7 +289,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_fence_recipe"
+      "registry_name": "worm_wood_fence_recipe",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodFenceGateRecipe",
@@ -285,7 +299,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_fence_gate_recipe"
+      "registry_name": "worm_wood_fence_gate_recipe",
+      "path": "~/WormWood"
     },
     {
       "name": "WormWoodStickRecipe",
@@ -294,7 +309,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "worm_wood_stick_recipe"
+      "registry_name": "worm_wood_stick_recipe",
+      "path": "~/WormWood"
     },
     {
       "name": "TingleStone",
@@ -303,7 +319,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tingle_stone"
+      "registry_name": "tingle_stone",
+      "path": "~/Tingle Stone"
     },
     {
       "name": "TingleStoneOre",
@@ -312,7 +329,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tingle_stone_ore"
+      "registry_name": "tingle_stone_ore",
+      "path": "~/Tingle Stone"
     },
     {
       "name": "TingleStoneBlock",
@@ -321,7 +339,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tingle_stone_block"
+      "registry_name": "tingle_stone_block",
+      "path": "~/Tingle Stone"
     },
     {
       "name": "TingleStoneOreBlockRecipe",
@@ -330,7 +349,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tingle_stone_ore_block_recipe"
+      "registry_name": "tingle_stone_ore_block_recipe",
+      "path": "~/Tingle Stone"
     },
     {
       "name": "TingleStoneBlockOreRecipe",
@@ -339,7 +359,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tingle_stone_block_ore_recipe"
+      "registry_name": "tingle_stone_block_ore_recipe",
+      "path": "~/Tingle Stone"
     },
     {
       "name": "TingleStoneOreSmelting",
@@ -348,7 +369,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "tingle_stone_ore_smelting"
+      "registry_name": "tingle_stone_ore_smelting",
+      "path": "~/Tingle Stone"
     },
     {
       "name": "BlackBoxWood",
@@ -357,7 +379,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "black_box_wood"
+      "registry_name": "black_box_wood",
+      "path": "~/Plants"
     },
     {
       "name": "MusketBall",
@@ -366,7 +389,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "musket_ball"
+      "registry_name": "musket_ball",
+      "path": "~/Guns"
     },
     {
       "name": "Musket",
@@ -377,7 +401,72 @@
       "ids": {
         "0": 2
       },
-      "registry_name": "musket"
+      "registry_name": "musket",
+      "path": "~/Guns"
+    },
+    {
+      "name": "QstWortWeedGui",
+      "type": "gui",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      },
+      "registry_name": "qst_wort_weed_gui",
+      "path": "~/Quests"
+    },
+    {
+      "name": "QstWortWeedLootTable",
+      "type": "loottable",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qst_wort_weed_loot_table",
+      "path": "~/Quests"
+    },
+    {
+      "name": "QstWortWeedProcedure",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "qst_wort_weed_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TempQuestBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "temp_quest_block"
     }
   ],
   "variable_elements": [],
@@ -409,6 +498,7 @@
       "item.bullet.name": "Bullet",
       "item.rugged_tuniclegs.name": "Rugged Leggings",
       "tile.worm_wood_log.name": "WormWood Log",
+      "tile.temp_quest_block.name": "Temp Quest Block",
       "item.emeralf_armor_armorlegs.name": "EmeralfArmor Leggings",
       "item.emerald_tools_shovel.name": "EmeraldTools Shovel",
       "item.emerald_tools_hoe.name": "EmeraldTools Hoe",
@@ -422,7 +512,32 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "WormWood",
+        "children": []
+      },
+      {
+        "name": "Emerald Gear",
+        "children": []
+      },
+      {
+        "name": "Guns",
+        "children": []
+      },
+      {
+        "name": "Tingle Stone",
+        "children": []
+      },
+      {
+        "name": "Plants",
+        "children": []
+      },
+      {
+        "name": "Quests",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "quest_npc",

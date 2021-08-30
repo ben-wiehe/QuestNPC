@@ -34,7 +34,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
-import net.mcreator.questnpc.gui.GuiQuest;
+import net.mcreator.questnpc.gui.GuiQstWortWeedGui;
 
 import java.util.function.Supplier;
 import java.util.Random;
@@ -124,15 +124,15 @@ public class ElementsQuestNpcMod implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-			if (id == GuiQuest.GUIID)
-				return new GuiQuest.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiQstWortWeedGui.GUIID)
+				return new GuiQstWortWeedGui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-			if (id == GuiQuest.GUIID)
-				return new GuiQuest.GuiWindow(world, x, y, z, player);
+			if (id == GuiQstWortWeedGui.GUIID)
+				return new GuiQstWortWeedGui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

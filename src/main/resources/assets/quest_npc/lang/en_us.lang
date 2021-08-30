@@ -23,6 +23,7 @@ tile.tingle_stone_ore.name=TingleStone Ore
 item.bullet.name=Bullet
 item.rugged_tuniclegs.name=Rugged Leggings
 tile.worm_wood_log.name=WormWood Log
+tile.temp_quest_block.name=Temp Quest Block
 item.emeralf_armor_armorlegs.name=EmeralfArmor Leggings
 item.emerald_tools_shovel.name=EmeraldTools Shovel
 item.emerald_tools_hoe.name=EmeraldTools Hoe
