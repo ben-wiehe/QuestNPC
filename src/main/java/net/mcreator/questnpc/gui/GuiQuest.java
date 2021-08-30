@@ -58,15 +58,21 @@ public class GuiQuest extends ElementsQuestNpcMod.ModElement {
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 3);
+			this.internal = new InventoryBasic("", true, 4);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 7, 17) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 79, 63) {
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 7, 35) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 97, 63) {
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 151, 60) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 133, 63) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 151, 63) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -97,18 +103,18 @@ public class GuiQuest extends ElementsQuestNpcMod.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 3) {
-					if (!this.mergeItemStack(itemstack1, 3, this.inventorySlots.size(), true)) {
+				if (index < 4) {
+					if (!this.mergeItemStack(itemstack1, 4, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
-					if (index < 3 + 27) {
-						if (!this.mergeItemStack(itemstack1, 3 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 4, false)) {
+					if (index < 4 + 27) {
+						if (!this.mergeItemStack(itemstack1, 4 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 3, 3 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 4, 4 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -235,7 +241,7 @@ public class GuiQuest extends ElementsQuestNpcMod.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("quest_npc:textures/quest.png");
+		private static final ResourceLocation texture = new ResourceLocation("quest_npc:textures/qst_wortweed.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -271,6 +277,12 @@ public class GuiQuest extends ElementsQuestNpcMod.ModElement {
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
 			this.fontRenderer.drawString("Wandering Quester", 5, 5, -12829636);
+			this.fontRenderer.drawString("Quest Items", 69, 52, -12829636);
+			this.fontRenderer.drawString("Rewards", 132, 52, -12829636);
+			this.fontRenderer.drawString("Hello Explorer, I am in need of", 5, 16, -12829636);
+			this.fontRenderer.drawString("16 Wort Weed to complete my spell", 5, 26, -12829636);
+			this.fontRenderer.drawString("Find me these plants and you will ", 5, 36, -12829636);
+			this.fontRenderer.drawString("be rewarded.", 5, 46, -12829636);
 		}
 
 		@Override

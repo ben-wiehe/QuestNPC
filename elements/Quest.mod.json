@@ -33,8 +33,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 132,
-          "y": 53
+          "x": 204,
+          "y": 99
         }
       },
       {
@@ -47,8 +47,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 132,
-          "y": 71
+          "x": 222,
+          "y": 99
         }
       },
       {
@@ -58,8 +58,97 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
+          "x": 258,
+          "y": 99
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
           "x": 276,
-          "y": 96
+          "y": 99
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Quest Items",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Quest Items",
+          "x": 195,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Rewards",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Rewards",
+          "x": 258,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Hello Explorer, I am in need of",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Hello Explorer, I am in need of",
+          "x": 131,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "16 Wort Weed to complete my spell",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "16 Wort Weed to complete my spell",
+          "x": 131,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Find me these plants and you will ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Find me these plants and you will ",
+          "x": 131,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "be rewarded.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "be rewarded.",
+          "x": 131,
+          "y": 83
         }
       }
     ]
